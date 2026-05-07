@@ -1,0 +1,14 @@
+{
+  "openai/privacy-filter": {
+    "releasedate": "2026-04-17",
+    "model": "openai/privacy-filter",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 112, 'BF16': 1399486753}, total=1399486865)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "7ffa9a043d54d1be65afb281eddf0ffbe629385b",
+    "context_length": 131072
+  }
+}

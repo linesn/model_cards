@@ -1,0 +1,39 @@
+{
+  "mistralai/Mistral-Medium-3.5-128B": {
+    "releasedate": "2026-03-31",
+    "model": "mistralai/Mistral-Medium-3.5-128B",
+    "license": "other",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 5901622016, 'F8_E4M3': 121802588160}, total=127704211408)",
+    "arxiv": [],
+    "datasets": null,
+    "language": [
+      "en",
+      "fr",
+      "de",
+      "es",
+      "pt",
+      "it",
+      "ja",
+      "ko",
+      "ru",
+      "zh",
+      "ar",
+      "fa",
+      "id",
+      "ms",
+      "ne",
+      "pl",
+      "ro",
+      "sr",
+      "sv",
+      "tr",
+      "uk",
+      "vi",
+      "hi",
+      "bn"
+    ],
+    "hash": "ed0c85631cf20929c29bc36d7cb37519ed0cdd28",
+    "context_length": null
+  }
+}
