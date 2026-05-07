@@ -1,0 +1,19 @@
+{
+  "Qwen/Qwen2.5-72B-Instruct": {
+    "releasedate": "2024-09-16",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "license": "other",
+    "license_file": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct/blob/main/LICENSE",
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 72706203648}, total=72706203648)",
+    "arxiv": [
+      "arxiv:2309.00071",
+      "arxiv:2407.10671"
+    ],
+    "datasets": null,
+    "language": [
+      "en"
+    ],
+    "hash": "495f39366efef23836d0cfae4fbe635880d2be31",
+    "context_length": 32768
+  }
+}
