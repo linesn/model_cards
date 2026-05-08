@@ -1,0 +1,14 @@
+{
+  "nvidia/gpt-oss-120b-Eagle3-short-context": {
+    "releasedate": "2025-10-06",
+    "model": "nvidia/gpt-oss-120b-Eagle3-short-context",
+    "license": "other",
+    "license_file": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license",
+    "safetensors": null,
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "9a8aea401c61817ccf474a54449fee1da66035c8",
+    "context_length": 131072
+  }
+}

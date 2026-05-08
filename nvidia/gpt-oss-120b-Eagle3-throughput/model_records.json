@@ -1,0 +1,14 @@
+{
+  "nvidia/gpt-oss-120b-Eagle3-throughput": {
+    "releasedate": "2025-12-09",
+    "model": "nvidia/gpt-oss-120b-Eagle3-throughput",
+    "license": "other",
+    "license_file": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license",
+    "safetensors": null,
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "dc54e8833d8d34dcffc42e0fed9646c3b1bfc317",
+    "context_length": 131072
+  }
+}
