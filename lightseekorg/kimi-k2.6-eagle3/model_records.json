@@ -1,0 +1,14 @@
+{
+  "lightseekorg/kimi-k2.6-eagle3": {
+    "releasedate": "2026-04-21",
+    "model": "lightseekorg/kimi-k2.6-eagle3",
+    "license": "",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 3178262528}, total=3178262528)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "7760cffe6498f9772bf94b3113a641c771adf27f",
+    "context_length": 262144
+  }
+}
