@@ -1,0 +1,14 @@
+{
+  "RedHatAI/Kimi-K2.6-NVFP4": {
+    "releasedate": "2026-04-30",
+    "model": "RedHatAI/Kimi-K2.6-NVFP4",
+    "license": "",
+    "license_file": null,
+    "safetensors": null,
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "743e397ce5a81c46ba210abe1864e32e8c008269",
+    "context_length": null
+  }
+}
