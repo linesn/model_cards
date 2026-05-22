@@ -1,0 +1,19 @@
+{
+  "hexgrad/Kokoro-82M": {
+    "releasedate": "2024-12-26",
+    "model": "hexgrad/Kokoro-82M",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": null,
+    "arxiv": [
+      "arxiv:2306.07691",
+      "arxiv:2203.02395"
+    ],
+    "datasets": null,
+    "language": [
+      "en"
+    ],
+    "hash": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "context_length": null
+  }
+}
