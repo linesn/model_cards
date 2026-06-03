@@ -1,0 +1,20 @@
+{
+  "dogacel/specdrift-gpt-oss-120b-eagle3": {
+    "releasedate": "2026-05-09",
+    "model": "dogacel/specdrift-gpt-oss-120b-eagle3",
+    "license": "cc-by-4.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'I64': 32000, 'BF16': 374011200, 'BOOL': 201088}, total=374244288)",
+    "arxiv": [
+      "arxiv:2605.09992"
+    ],
+    "datasets": [
+      "Dogacel/nemotron-post-training-v2-gpt-oss-120b-regen"
+    ],
+    "language": [
+      "en"
+    ],
+    "hash": "94f7c2fd2679d3a98a82b783a47463e7b5c9de56",
+    "context_length": 131072
+  }
+}

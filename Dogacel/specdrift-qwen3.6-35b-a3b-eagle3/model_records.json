@@ -1,0 +1,14 @@
+{
+  "Dogacel/specdrift-qwen3.6-35b-a3b-eagle3": {
+    "releasedate": "2026-05-11",
+    "model": "Dogacel/specdrift-qwen3.6-35b-a3b-eagle3",
+    "license": "",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'I64': 32000, 'BF16': 208156672, 'BOOL': 248320}, total=208436992)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "cda3d86f3681352ea988ff78aba08adf153b026a",
+    "context_length": 262144
+  }
+}
