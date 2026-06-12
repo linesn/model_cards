@@ -1,0 +1,16 @@
+{
+  "MiniMaxAI/MiniMax-M3-MXFP8": {
+    "releasedate": "2026-06-02",
+    "model": "MiniMaxAI/MiniMax-M3-MXFP8",
+    "license": "other",
+    "license_file": "LICENSE",
+    "safetensors": null,
+    "arxiv": [
+      "arxiv:2606.13392"
+    ],
+    "datasets": null,
+    "language": null,
+    "hash": "2a60e16e52376b8eb7a7a94c930401c1fe12b709",
+    "context_length": null
+  }
+}

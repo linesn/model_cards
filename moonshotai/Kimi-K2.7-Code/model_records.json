@@ -1,0 +1,14 @@
+{
+  "moonshotai/Kimi-K2.7-Code": {
+    "releasedate": "2026-06-11",
+    "model": "moonshotai/Kimi-K2.7-Code",
+    "license": "other",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 43902267888, 'F32': 23040, 'I32': 1014687129600}, total=1058589420528)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "78b5c461e9cd0ffa168d8b5c2151bcf6b0799d7d",
+    "context_length": null
+  }
+}

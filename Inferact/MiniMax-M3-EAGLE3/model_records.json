@@ -1,0 +1,14 @@
+{
+  "Inferact/MiniMax-M3-EAGLE3": {
+    "releasedate": "2026-06-02",
+    "model": "Inferact/MiniMax-M3-EAGLE3",
+    "license": "mit",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 3263735808}, total=3263735808)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "8dd0861d3ebb6b745327624f5bccdb881ddc71f0",
+    "context_length": 524288
+  }
+}
