@@ -1,0 +1,20 @@
+{
+  "zai-org/GLM-5.2-FP8": {
+    "releasedate": "2026-06-16",
+    "model": "zai-org/GLM-5.2-FP8",
+    "license": "mit",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 45872560, 'BF16': 2103729152, 'F8_E4M3': 751226191872}, total=753375793584)",
+    "arxiv": [
+      "arxiv:2602.15763",
+      "arxiv:2603.12201"
+    ],
+    "datasets": null,
+    "language": [
+      "en",
+      "zh"
+    ],
+    "hash": "70311cfa0158cce7dd2cf5d2e04f68e3fdc3efc1",
+    "context_length": 1048576
+  }
+}

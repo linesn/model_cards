@@ -1,0 +1,20 @@
+{
+  "zai-org/GLM-5.2": {
+    "releasedate": "2026-06-16",
+    "model": "zai-org/GLM-5.2",
+    "license": "mit",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 753329921024, 'F32': 19456}, total=753329940480)",
+    "arxiv": [
+      "arxiv:2602.15763",
+      "arxiv:2603.12201"
+    ],
+    "datasets": null,
+    "language": [
+      "en",
+      "zh"
+    ],
+    "hash": "f2263102df303b2faa54a6861a29d1770ce846c0",
+    "context_length": 1048576
+  }
+}
