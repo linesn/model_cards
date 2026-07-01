@@ -1,0 +1,25 @@
+{
+  "LiquidAI/LFM2.5-1.2B-Thinking": {
+    "releasedate": "2026-01-20",
+    "model": "LiquidAI/LFM2.5-1.2B-Thinking",
+    "license": "other",
+    "license_file": "LICENSE",
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 1170340608}, total=1170340608)",
+    "arxiv": [
+      "arxiv:2511.23404"
+    ],
+    "datasets": null,
+    "language": [
+      "en",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "ko",
+      "es"
+    ],
+    "hash": "95053d21d8e0b7ca99421a2127ae39c64f685ff3",
+    "context_length": 128000
+  }
+}

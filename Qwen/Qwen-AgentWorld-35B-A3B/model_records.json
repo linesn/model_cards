@@ -1,0 +1,18 @@
+{
+  "Qwen/Qwen-AgentWorld-35B-A3B": {
+    "releasedate": "2026-06-22",
+    "model": "Qwen/Qwen-AgentWorld-35B-A3B",
+    "license": "apache-2.0",
+    "license_file": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B/blob/main/LICENSE",
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 34660610688}, total=34660610688)",
+    "arxiv": [
+      "arxiv:2606.24597"
+    ],
+    "datasets": [
+      "Qwen/AgentWorldBench"
+    ],
+    "language": null,
+    "hash": "60d2b0434a53d2e62a7c00a489586815d94ebffb",
+    "context_length": null
+  }
+}

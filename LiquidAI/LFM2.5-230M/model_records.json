@@ -1,0 +1,27 @@
+{
+  "LiquidAI/LFM2.5-230M": {
+    "releasedate": "2026-06-24",
+    "model": "LiquidAI/LFM2.5-230M",
+    "license": "other",
+    "license_file": "LICENSE",
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 229693184}, total=229693184)",
+    "arxiv": [
+      "arxiv:2511.23404"
+    ],
+    "datasets": null,
+    "language": [
+      "en",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "ko",
+      "es",
+      "pt",
+      "it"
+    ],
+    "hash": "37b30cce3446f3f2e26a0d3f8c67c9167f5079d7",
+    "context_length": 128000
+  }
+}

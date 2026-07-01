@@ -1,0 +1,27 @@
+{
+  "LiquidAI/LFM2.5-8B-A1B": {
+    "releasedate": "2026-05-28",
+    "model": "LiquidAI/LFM2.5-8B-A1B",
+    "license": "other",
+    "license_file": "LICENSE",
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 704, 'BF16': 8467856128}, total=8467856832)",
+    "arxiv": [
+      "arxiv:2511.23404"
+    ],
+    "datasets": null,
+    "language": [
+      "en",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "ko",
+      "es",
+      "pt",
+      "it"
+    ],
+    "hash": "19d919640aed1125840c33101ecf5b66a5428964",
+    "context_length": 128000
+  }
+}
