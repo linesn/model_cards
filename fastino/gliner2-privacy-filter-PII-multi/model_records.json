@@ -1,0 +1,27 @@
+{
+  "fastino/gliner2-privacy-filter-PII-multi": {
+    "releasedate": "2026-05-10",
+    "model": "fastino/gliner2-privacy-filter-PII-multi",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 307098645}, total=307098645)",
+    "arxiv": [
+      "arxiv:2605.09973",
+      "arxiv:2604.09791"
+    ],
+    "datasets": [
+      "synthetic"
+    ],
+    "language": [
+      "en",
+      "fr",
+      "es",
+      "de",
+      "it",
+      "pt",
+      "nl"
+    ],
+    "hash": "59894c087cb2923b01f337d4ee72f6ff84d5bdd6",
+    "context_length": null
+  }
+}

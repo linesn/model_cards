@@ -1,0 +1,14 @@
+{
+  "poolside/Laguna-S-2.1-DFlash-NVFP4": {
+    "releasedate": "2026-07-11",
+    "model": "poolside/Laguna-S-2.1-DFlash-NVFP4",
+    "license": "",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 1114977792}, total=1114977792)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "723794750422b3efbf3a7b3af76dffb4ba035943",
+    "context_length": 262144
+  }
+}

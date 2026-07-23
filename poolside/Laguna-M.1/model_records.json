@@ -1,0 +1,14 @@
+{
+  "poolside/Laguna-M.1": {
+    "releasedate": "2026-06-15",
+    "model": "poolside/Laguna-M.1",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 225795725568}, total=225795725568)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "2bf8a4ab6d2e8e1e0d92a41318532a0fee1640d6",
+    "context_length": 262144
+  }
+}

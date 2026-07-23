@@ -1,0 +1,14 @@
+{
+  "poolside/Laguna-XS-2.1": {
+    "releasedate": "2026-06-20",
+    "model": "poolside/Laguna-XS-2.1",
+    "license": "openmdw-1.1",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 33442617088}, total=33442617088)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "c405648833500615a2efde76886b8aed4fb9324e",
+    "context_length": 262144
+  }
+}

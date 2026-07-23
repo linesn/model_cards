@@ -1,0 +1,14 @@
+{
+  "poolside/Laguna-XS-2.1-DFlash-INT4": {
+    "releasedate": "2026-06-29",
+    "model": "poolside/Laguna-XS-2.1-DFlash-INT4",
+    "license": "openmdw-1.1",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 462064896}, total=462064896)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "630267be6a2ad870ca80fc3930bde87d6ad7bb24",
+    "context_length": 262144
+  }
+}

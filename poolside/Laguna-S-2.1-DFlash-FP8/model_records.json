@@ -1,0 +1,14 @@
+{
+  "poolside/Laguna-S-2.1-DFlash-FP8": {
+    "releasedate": "2026-07-11",
+    "model": "poolside/Laguna-S-2.1-DFlash-FP8",
+    "license": "",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 1114977792}, total=1114977792)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "417aceaaf0a470f72740c1efb65cd3aafd75be55",
+    "context_length": 262144
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "fastino/gliguard-LLMGuardrails-300M": {
+    "releasedate": "2026-05-09",
+    "model": "fastino/gliguard-LLMGuardrails-300M",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 208476821}, total=208476821)",
+    "arxiv": [
+      "arxiv:2605.07982"
+    ],
+    "datasets": null,
+    "language": [
+      "en"
+    ],
+    "hash": "4c03acfe6fcef7bb806d0ae721742d593ddba387",
+    "context_length": null
+  }
+}

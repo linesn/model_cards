@@ -1,0 +1,28 @@
+{
+  "LiquidAI/LFM2.5-ColBERT-350M": {
+    "releasedate": "2026-05-20",
+    "model": "LiquidAI/LFM2.5-ColBERT-350M",
+    "license": "other",
+    "license_file": "LICENSE",
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 353322752}, total=353322752)",
+    "arxiv": [
+      "arxiv:2511.23404"
+    ],
+    "datasets": null,
+    "language": [
+      "en",
+      "es",
+      "de",
+      "fr",
+      "it",
+      "pt",
+      "ar",
+      "sv",
+      "no",
+      "ja",
+      "ko"
+    ],
+    "hash": "59633c2e31717b3502343ff566bee9fda3261943",
+    "context_length": 128000
+  }
+}

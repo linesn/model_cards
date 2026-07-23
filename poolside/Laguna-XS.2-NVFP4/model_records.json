@@ -1,0 +1,14 @@
+{
+  "poolside/Laguna-XS.2-NVFP4": {
+    "releasedate": "2026-04-23",
+    "model": "poolside/Laguna-XS.2-NVFP4",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 9984, 'BF16': 1862643792, 'F8_E4M3': 1973747712, 'U8': 15789981696}, total=19626383184)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "d3cca23dc520049c2cfb041f708a0c2ec5957e99",
+    "context_length": 262144
+  }
+}

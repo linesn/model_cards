@@ -1,0 +1,14 @@
+{
+  "poolside/Laguna-XS-2.1-FP8": {
+    "releasedate": "2026-06-20",
+    "model": "poolside/Laguna-XS-2.1-FP8",
+    "license": "openmdw-1.1",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 9984, 'BF16': 1864571280, 'F8_E4M3': 31579963392}, total=33444544656)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "5612004f56ad3b81b1148999a593fb0ee139c0b0",
+    "context_length": 262144
+  }
+}

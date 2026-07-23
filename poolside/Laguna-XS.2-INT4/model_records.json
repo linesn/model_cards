@@ -1,0 +1,14 @@
+{
+  "poolside/Laguna-XS.2-INT4": {
+    "releasedate": "2026-04-23",
+    "model": "poolside/Laguna-XS.2-INT4",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 9984, 'I32': 38654705664, 'BF16': 2281025616}, total=40935741264)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "610af28e6675c77f53027f850d4856b9c47e009f",
+    "context_length": 262144
+  }
+}

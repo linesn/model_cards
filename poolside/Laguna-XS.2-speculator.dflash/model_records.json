@@ -1,0 +1,16 @@
+{
+  "poolside/Laguna-XS.2-speculator.dflash": {
+    "releasedate": "2026-05-07",
+    "model": "poolside/Laguna-XS.2-speculator.dflash",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'I64': 32000, 'BF16': 606627072, 'BOOL': 100352}, total=606759424)",
+    "arxiv": [
+      "arxiv:2602.06036"
+    ],
+    "datasets": null,
+    "language": null,
+    "hash": "6c936ca2a04faee6989df6d40686fbd9ac61a064",
+    "context_length": null
+  }
+}

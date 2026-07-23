@@ -1,0 +1,14 @@
+{
+  "poolside/Laguna-M.1-FP8": {
+    "releasedate": "2026-04-24",
+    "model": "poolside/Laguna-M.1-FP8",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 17152, 'BF16': 3255327628, 'F8_E4M3': 222553964544}, total=225809309324)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "3732a656e6f0bf09f90250518d8de9c8e5c54f12",
+    "context_length": 262144
+  }
+}
