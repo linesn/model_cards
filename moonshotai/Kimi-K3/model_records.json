@@ -1,0 +1,14 @@
+{
+  "moonshotai/Kimi-K3": {
+    "releasedate": "2026-06-13",
+    "model": "moonshotai/Kimi-K3",
+    "license": "other",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 11122432, 'BF16': 57179884544, 'U8': 2722740830208}, total=2779931837184)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "9f62e4e9fffbd0a83ddd60e1c209d828994b3569",
+    "context_length": null
+  }
+}
