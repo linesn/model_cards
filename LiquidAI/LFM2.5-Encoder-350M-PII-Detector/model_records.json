@@ -1,0 +1,31 @@
+{
+  "LiquidAI/LFM2.5-Encoder-350M-PII-Detector": {
+    "releasedate": "2026-06-12",
+    "model": "LiquidAI/LFM2.5-Encoder-350M-PII-Detector",
+    "license": "other",
+    "license_file": "LICENSE",
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 354649154}, total=354649154)",
+    "arxiv": [],
+    "datasets": null,
+    "language": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "pt",
+      "it",
+      "pl",
+      "ru",
+      "zh",
+      "ja",
+      "ko",
+      "ar",
+      "hi",
+      "id",
+      "vi",
+      "th"
+    ],
+    "hash": "b8c9cf3d2d6ae52501b35a27ba46f271449c9ce2",
+    "context_length": 128000
+  }
+}

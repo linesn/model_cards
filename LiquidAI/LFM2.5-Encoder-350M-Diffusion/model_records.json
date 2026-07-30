@@ -1,0 +1,16 @@
+{
+  "LiquidAI/LFM2.5-Encoder-350M-Diffusion": {
+    "releasedate": "2026-07-10",
+    "model": "LiquidAI/LFM2.5-Encoder-350M-Diffusion",
+    "license": "other",
+    "license_file": "LICENSE",
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 354483968}, total=354483968)",
+    "arxiv": [],
+    "datasets": null,
+    "language": [
+      "en"
+    ],
+    "hash": "5bb1c16fd5980ac2b4f7afcde762856aebd8ca0a",
+    "context_length": 128000
+  }
+}
