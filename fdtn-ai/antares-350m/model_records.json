@@ -1,0 +1,16 @@
+{
+  "fdtn-ai/antares-350m": {
+    "releasedate": "2026-07-21",
+    "model": "fdtn-ai/antares-350m",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 352379904}, total=352379904)",
+    "arxiv": [],
+    "datasets": null,
+    "language": [
+      "en"
+    ],
+    "hash": "cdf6d054fa5f491553ccb1704269cbd1954c6c6e",
+    "context_length": null
+  }
+}

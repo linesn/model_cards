@@ -1,0 +1,16 @@
+{
+  "fdtn-ai/antares-1b": {
+    "releasedate": "2026-07-21",
+    "model": "fdtn-ai/antares-1b",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 1837271040}, total=1837271040)",
+    "arxiv": [],
+    "datasets": null,
+    "language": [
+      "en"
+    ],
+    "hash": "10417eb35641b32e7141157db19c76eb545193b6",
+    "context_length": null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "microsoft/Fara1.5-4B": {
+    "releasedate": "2026-07-17",
+    "model": "microsoft/Fara1.5-4B",
+    "license": "mit",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 4539265536}, total=4539265536)",
+    "arxiv": [
+      "arxiv:2606.20785"
+    ],
+    "datasets": null,
+    "language": [
+      "en"
+    ],
+    "hash": "776a33ae5b2ad503796a97ae20fdc66f61d2feea",
+    "context_length": null
+  }
+}
