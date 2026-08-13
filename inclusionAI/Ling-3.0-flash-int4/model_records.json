@@ -1,0 +1,14 @@
+{
+  "inclusionAI/Ling-3.0-flash-int4": {
+    "releasedate": "2026-08-04",
+    "model": "inclusionAI/Ling-3.0-flash-int4",
+    "license": "mit",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 165472, 'I32': 123815854080, 'BF16': 3670386048}, total=127486405600)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "1b6ff9d3e339e429fbbe4fc5e0e4db57284d0209",
+    "context_length": 262144
+  }
+}

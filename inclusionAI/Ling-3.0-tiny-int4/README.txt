@@ -1,0 +1,98 @@
+---
+license: mit
+---
+<p align="center">
+    <img src="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*4QxcQrBlTiAAAAAAQXAAAAgAemJ7AQ/original" width="100"/>
+</p>
+<p align="center">🤗 <a href="https://huggingface.co/inclusionAI">Hugging Face</a>&nbsp;&nbsp; | &nbsp;&nbsp;🤖 <a href="https://modelscope.cn/organization/inclusionAI">ModelScope </a>&nbsp;&nbsp; | &nbsp;&nbsp;🐙 <a href="https://openrouter.ai/inclusionai/ling-3.0-tiny:free">OpenRouter </a>&nbsp;&nbsp;</p>
+
+# Introduction
+We are introducing **Ling-3.0-tiny**, a lightweight hybrid reasoning MoE model with **7.9B** total parameters and only **1.3B** activated parameters per token. 
+It is designed to deliver strong reasoning and agentic capabilities at low inference cost, making advanced model capabilities more accessible for local and resource-constrained deployment. 
+BF16, FP8, and INT4 weights are provided for a wide range of hardware and deployment settings.
+
+Key highlights of the model are summarized below:
+
++ **Efficient Hybrid-Linear Architecture:** Ling-3.0-tiny integrates a 3:1 alternating stacking of KDA and MLA (3 Kimi Delta Attention layers followed by 1 Multi-Head Latent Attention layer per 4-layer block) with a sparse MoE FFN comprising 128 routed experts. Each token activates only 8 routed experts and 1 shared expert, allowing the model to balance long-context modeling capability, parameter efficiency, and computational cost.
++ **Native Hybrid Reasoning and Agentic Capabilities:** Ling-3.0-tiny supports both fast responses and multi-step reasoning, with thinking mode configurable per request through `enable_thinking`. It delivers balanced performance across general agent tasks, coding, mathematical and scientific reasoning, and instruction following.
++ **Local and Edge Deployment:** Designed for efficient local deployment, Ling-3.0-tiny has been validated on **NVIDIA DGX Spark, Apple Silicon MacBook, and Mac mini**, enabling capable reasoning and agentic workloads without datacenter-class GPUs. With FP8, Ling-3.0-tiny reaches around **100-105 tokens/s on DGX Spark** and **86-90 tokens/s on an M4 Pro MacBook**, with approximately **8.34 GiB peak memory usage** at an 8K context length.
+
+# Model Overview
+Ling-3.0-tiny inherits the hybrid linear attation architecture of Ling-3.0 series, while being specifically optimized for lightweight and accessible deployment. The model has 7.9B total parameters, with only 1.3B parameters activated per token.
+
+The architecture of Ling-3.0-tiny is designed to make computational efficiency serve real-world agentic performance.
+
++ A 3:1 KDA–MLA architecture (3 KDA layers and 1 MLA layer per 4-layer block) provides more efficient long-context processing;
++ A sparse MoE FFN with 128 experts activates 8 routed experts and 1 shared expert per token, enabling broad model capabilities with only 1.3B activated parameters per token.
++ Native hybrid reasoning enables fast responses for routine tasks and multi-step reasoning for complex tasks within a single model.
+
+Overall, these designs deliver the inference efficiency needed to deploy lightweight models in real-world agentic workflows.
+
+<!-- Ling-3.0-tiny architecture diagram -->
+![](https://intranetproxy.alipay.com/skylark/lark/0/2026/png/202156655/1786334509742-e888d58f-c9af-44d0-a64a-a9b6ba0cb652.png)
+
+# Evaluation
+We evaluated Ling-3.0-tiny across agentic tasks, coding, long-context understanding, knowledge reliability, mathematical and scientific reasoning, and instruction following.
+Ling-3.0-tiny achieves a score of **25** on the Artificial Analysis Intelligence Index v4.1.1 and **16** on the Artificial Analysis Agentic Index. 
+In Artificial Analysis testing, Ling-3.0-tiny reaches an output speed of over **160 tokens/s**, with approximately **18 seconds** of end-to-end latency for a 500-token response, including reasoning time. 
+These results highlight the model's efficiency relative to its 1.3B activated parameter footprint.
+
+The following table presents representative benchmarks for Ling-3.0-tiny:
+
+![image](https://cdn-uploads.huggingface.co/production/uploads/6502cf8fbdaeae26417cd3c9/g9Thw4ohjkDGYw0Cq7mKi.png)
+
+> + Thinking mode is enabled by default. The recommended sampling parameters for Ling-3.0-tiny are `temperature=1.0`, `top_p=0.95`, and `top_k=20`.
+> + Terminal-Bench 2.1: Evaluated under the Artificial Analysis (AA) protocol using the default Terminus 2 harness, a unified 2-hour timeout, the provided JSON parser in preserve-thinking mode, and 3 runs per task (mean). Decoding uses temperature=1.0, max_new_tokens=32K, with a 256K context window.
+
+# Quickstart
+## SGLang
+The hardware- and recipe-specific launch matrix (BF16/FP8 × Low-Latency / High-Throughput / HiCache + Mooncake), with a live command generator and verified configurations, lives in the SGLang cookbook:
+
+**Cookbook:** https://docs.sglang.io/cookbook/autoregressive/InclusionAI/Ling-3.0-tiny
+
+
+### Install SGLang
+Use the pre-built image that tracks the Ling-3.0 runtime:
+
+```bash
+docker pull lmsysorg/sglang:dev-Ling-3.0-tiny
+```
+
+### Run Inference
+Recommended low-latency recipe (built-in MTP / NEXTN, 256K YaRN context) on 1× 141GB-class GPU (H20-3e) or a 1-GPU Blackwell node:
+
+**Server**
+
+```bash
+docker run --rm --gpus all --ipc=host --shm-size 32g \
+  -p 30000:30000 \
+  -e HF_TOKEN=<your-hf-token> \
+  lmsysorg/sglang:dev-Ling-3.0-tiny \
+  env SGLANG_ALLOW_OVERWRITE_LONGER_CONTEXT_LEN=1 \
+  python3 -m sglang.launch_server \
+    --model-path inclusionAI/Ling-3.0-tiny \
+    --tp 1 \
+    --json-model-override-args '{"rope_scaling":{"rope_type":"yarn","factor":2.0,"rope_theta":6000000,"partial_rotary_factor":0.5,"original_max_position_embeddings":131072}}' \
+    --context-length 262144 \
+    --speculative-algorithm NEXTN \
+    --mem-fraction-static 0.8 \
+    --host 0.0.0.0 \
+    --port 30000
+```
+
+**Client**
+
+Thinking is enabled by default by both the chat template and the `ling3` reasoning parser. Disable it per request with `"chat_template_kwargs": {"enable_thinking": false}`. We recommend the sampling parameters `temperature=1.0`, `top_p=0.95`, and `top_k=20`.
+
+```bash
+curl -s http://localhost:30000/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{"model": "auto",
+       "messages": [{"role": "user", "content": "What is the capital of France?"}],
+       "stream": true,
+       "temperature": 1.0,
+       "top_k": 20,
+       "top_p": 0.95
+     }'
+```
+For `--reasoning-parser ling3` / `--tool-call-parser ling3`, the HiCache + Mooncake L3 setup, and GSM8K / bench_serving reproduction commands, see the cookbook page linked above.

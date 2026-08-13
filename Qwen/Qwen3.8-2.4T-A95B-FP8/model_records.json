@@ -1,0 +1,14 @@
+{
+  "Qwen/Qwen3.8-2.4T-A95B-FP8": {
+    "releasedate": "2026-08-08",
+    "model": "Qwen/Qwen3.8-2.4T-A95B-FP8",
+    "license": "other",
+    "license_file": "LICENSE",
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 49590974336, 'F8_E4M3': 2396591751168}, total=2446182725504)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "d2dc35658bcf77e66643428cb52e774cc3b5bd29",
+    "context_length": 262144
+  }
+}

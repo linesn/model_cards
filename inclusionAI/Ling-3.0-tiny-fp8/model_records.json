@@ -1,0 +1,14 @@
+{
+  "inclusionAI/Ling-3.0-tiny-fp8": {
+    "releasedate": "2026-08-10",
+    "model": "inclusionAI/Ling-3.0-tiny-fp8",
+    "license": "mit",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 40096, 'BF16': 513474816, 'F8_E4M3': 7379877888}, total=7893392800)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "94219734724fb6be94c2d5574333b499cf8cb632",
+    "context_length": 131072
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "inclusionAI/Ling-3.0-tiny": {
+    "releasedate": "2026-08-10",
+    "model": "inclusionAI/Ling-3.0-tiny",
+    "license": "mit",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 40096, 'BF16': 7893352704}, total=7893392800)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "a2ee06c0f2de5b171701aee7f73f70a1da75483b",
+    "context_length": 131072
+  }
+}
