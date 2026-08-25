@@ -1,0 +1,29 @@
+{
+  "mistralai/Shieldstral-1.0-3B": {
+    "releasedate": "2026-07-16",
+    "model": "mistralai/Shieldstral-1.0-3B",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 3849090048}, total=3849090048)",
+    "arxiv": [
+      "arxiv:2607.25857"
+    ],
+    "datasets": null,
+    "language": [
+      "en",
+      "fr",
+      "es",
+      "de",
+      "it",
+      "pt",
+      "nl",
+      "zh",
+      "ja",
+      "ko",
+      "ar",
+      "ru"
+    ],
+    "hash": "003ec7e2b0bab5f0e6307edbaf186fa5822b76f5",
+    "context_length": null
+  }
+}

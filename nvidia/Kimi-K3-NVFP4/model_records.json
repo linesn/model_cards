@@ -1,0 +1,14 @@
+{
+  "nvidia/Kimi-K3-NVFP4": {
+    "releasedate": "2026-08-13",
+    "model": "nvidia/Kimi-K3-NVFP4",
+    "license": "other",
+    "license_file": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-agreement/",
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 11122432, 'BF16': 21000178688, 'F8_E4M3': 36179705856, 'U8': 1361370415104}, total=1418561422080)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "f8c5234a0a880bcc6cbf779a315e7ee2f405b812",
+    "context_length": null
+  }
+}

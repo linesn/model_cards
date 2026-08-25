@@ -1,0 +1,14 @@
+{
+  "inclusionAI/Ling-3.0-flash-dspark": {
+    "releasedate": "2026-08-09",
+    "model": "inclusionAI/Ling-3.0-flash-dspark",
+    "license": "other",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 1363707905}, total=1363707905)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "8e5d9988c9b09de13f1f7c9d999ff2bfa533a149",
+    "context_length": 262144
+  }
+}

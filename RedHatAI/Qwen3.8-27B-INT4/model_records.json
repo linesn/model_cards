@@ -1,0 +1,14 @@
+{
+  "RedHatAI/Qwen3.8-27B-INT4": {
+    "releasedate": "2026-08-17",
+    "model": "RedHatAI/Qwen3.8-27B-INT4",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'I32': 24326963200, 'BF16': 3029765360}, total=27356728560)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "2fb0debc365fb6c1683d7d3ad7722470919627a8",
+    "context_length": null
+  }
+}

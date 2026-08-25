@@ -1,0 +1,16 @@
+{
+  "z-lab/Qwen3.8-27B-PARO": {
+    "releasedate": "2026-08-15",
+    "model": "z-lab/Qwen3.8-27B-PARO",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'I32': 3064627200, 'F16': 3234319600, 'I16': 23199744}, total=6322146544)",
+    "arxiv": [
+      "arxiv:2511.10645"
+    ],
+    "datasets": null,
+    "language": null,
+    "hash": "252f329a8a75ea36c563a603653e050c1d5268c3",
+    "context_length": null
+  }
+}

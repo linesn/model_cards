@@ -1,0 +1,14 @@
+{
+  "z-lab/Qwen3.8-27B-DFlash2": {
+    "releasedate": "2026-08-15",
+    "model": "z-lab/Qwen3.8-27B-DFlash2",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 1924404480}, total=1924404480)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "50307d4c4cde6860d4eee73e2547cd786fe8e8a4",
+    "context_length": 262144
+  }
+}
