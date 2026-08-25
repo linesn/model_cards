@@ -2,7 +2,7 @@
   "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4": {
     "releasedate": "2026-06-03",
     "model": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
-    "license": "other",
+    "license": "openmdw-1.1",
     "license_file": "https://openmdw.ai/license/1-1/",
     "safetensors": "SafeTensorsInfo(parameters={'F32': 201351896, 'BF16': 16640790528, 'F8_E4M3': 60498640896, 'U8': 257698037760}, total=335038821080)",
     "arxiv": [],
