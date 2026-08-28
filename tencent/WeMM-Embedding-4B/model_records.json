@@ -2,7 +2,7 @@
   "tencent/WeMM-Embedding-4B": {
     "releasedate": "2026-08-25",
     "model": "tencent/WeMM-Embedding-4B",
-    "license": "other",
+    "license": "apache-2.0",
     "license_file": "https://huggingface.co/tencent/WeMM-Embedding-4B/blob/main/LICENSE",
     "safetensors": "SafeTensorsInfo(parameters={'BF16': 5173725696}, total=5173725696)",
     "arxiv": [
