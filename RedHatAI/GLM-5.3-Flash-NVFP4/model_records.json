@@ -2,7 +2,7 @@
   "RedHatAI/GLM-5.3-Flash-NVFP4": {
     "releasedate": "2026-08-27",
     "model": "RedHatAI/GLM-5.3-Flash-NVFP4",
-    "license": "",
+    "license": "mit",
     "license_file": null,
     "safetensors": "SafeTensorsInfo(parameters={'F32': 3342624, 'BF16': 9666124350, 'U8': 152202903552, 'F8_E4M3': 7247757312}, total=169120127838)",
     "arxiv": [],
