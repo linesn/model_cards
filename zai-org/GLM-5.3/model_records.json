@@ -1,0 +1,19 @@
+{
+  "zai-org/GLM-5.3": {
+    "releasedate": "2026-08-25",
+    "model": "zai-org/GLM-5.3",
+    "license": "other",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 2103729152, 'F8_E4M3': 751226191872, 'F32': 19456}, total=753329940480)",
+    "arxiv": [
+      "arxiv:2602.15763"
+    ],
+    "datasets": null,
+    "language": [
+      "en",
+      "zh"
+    ],
+    "hash": "935644c05e76fc198714f4cca449fd8b970ff6d7",
+    "context_length": 1048576
+  }
+}
