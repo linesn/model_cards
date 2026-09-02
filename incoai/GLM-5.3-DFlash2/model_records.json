@@ -1,0 +1,14 @@
+{
+  "incoai/GLM-5.3-DFlash2": {
+    "releasedate": "2026-08-26",
+    "model": "incoai/GLM-5.3-DFlash2",
+    "license": "cc-by-nc-nd-4.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 2459424256}, total=2459424256)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "425aa615ce320caac34400208b30808c8f14f76c",
+    "context_length": 1048576
+  }
+}
