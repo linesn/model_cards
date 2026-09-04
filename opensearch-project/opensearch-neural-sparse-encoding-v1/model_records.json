@@ -1,0 +1,16 @@
+{
+  "opensearch-project/opensearch-neural-sparse-encoding-v1": {
+    "releasedate": "2024-03-07",
+    "model": "opensearch-project/opensearch-neural-sparse-encoding-v1",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'I64': 512, 'F32': 132955194}, total=132955706)",
+    "arxiv": [
+      "arxiv:2411.04403"
+    ],
+    "datasets": null,
+    "language": "en",
+    "hash": "708f7e68f4aada15c2d59144a5187c521da6d8db",
+    "context_length": 512
+  }
+}

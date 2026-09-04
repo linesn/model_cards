@@ -1,0 +1,14 @@
+{
+  "castorini/monot5-base-msmarco-10k": {
+    "releasedate": "2022-03-02",
+    "model": "castorini/monot5-base-msmarco-10k",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": null,
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "f15657ab3d2a5dd0b9a30c8c0b6a0a73c9cb5884",
+    "context_length": 512
+  }
+}

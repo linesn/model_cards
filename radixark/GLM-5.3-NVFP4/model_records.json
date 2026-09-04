@@ -1,0 +1,17 @@
+{
+  "radixark/GLM-5.3-NVFP4": {
+    "releasedate": "2026-08-28",
+    "model": "radixark/GLM-5.3-NVFP4",
+    "license": "glm-5.3",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 19456, 'BF16': 28554189824, 'U8': 362387865600}, total=380989135104)",
+    "arxiv": [],
+    "datasets": null,
+    "language": [
+      "en",
+      "zh"
+    ],
+    "hash": "363e8f086905afd83db356a620f9aa401c23800a",
+    "context_length": 1048576
+  }
+}

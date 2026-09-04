@@ -1,0 +1,19 @@
+{
+  "nvidia/NV-Embed-V2": {
+    "releasedate": "2024-08-29",
+    "model": "nvidia/NV-Embed-V2",
+    "license": "cc-by-nc-4.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F16': 7851016192}, total=7851016192)",
+    "arxiv": [
+      "arxiv:2405.17428",
+      "arxiv:2407.15831"
+    ],
+    "datasets": null,
+    "language": [
+      "en"
+    ],
+    "hash": "3fa59658547db50a1e8e3346cf057fd0c77ed6ef",
+    "context_length": null
+  }
+}

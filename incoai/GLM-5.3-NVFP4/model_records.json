@@ -1,0 +1,14 @@
+{
+  "incoai/GLM-5.3-NVFP4": {
+    "releasedate": "2026-08-27",
+    "model": "incoai/GLM-5.3-NVFP4",
+    "license": "glm-5.3",
+    "license_file": "LICENSE",
+    "safetensors": "SafeTensorsInfo(parameters={'U8': 362387865600, 'BF16': 28554189824, 'F32': 19456}, total=390942074880)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "54e52520606f96b3d9fc84088ad22882a61648ac",
+    "context_length": 1048576
+  }
+}

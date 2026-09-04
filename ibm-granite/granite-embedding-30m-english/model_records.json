@@ -1,0 +1,18 @@
+{
+  "ibm-granite/granite-embedding-30m-english": {
+    "releasedate": "2024-12-04",
+    "model": "ibm-granite/granite-embedding-30m-english",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 30295296}, total=30295296)",
+    "arxiv": [
+      "arxiv:2502.20204"
+    ],
+    "datasets": null,
+    "language": [
+      "en"
+    ],
+    "hash": "9b5b096411652ec1189c68fcfb90d0a82c5b45af",
+    "context_length": 514
+  }
+}

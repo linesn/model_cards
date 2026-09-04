@@ -1,0 +1,29 @@
+{
+  "ibm-granite/granite-embedding-278m-multilingual": {
+    "releasedate": "2024-12-04",
+    "model": "ibm-granite/granite-embedding-278m-multilingual",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 278043648}, total=278043648)",
+    "arxiv": [
+      "arxiv:2502.20204"
+    ],
+    "datasets": null,
+    "language": [
+      "en",
+      "ar",
+      "cs",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "ja",
+      "ko",
+      "nl",
+      "pt",
+      "zh"
+    ],
+    "hash": "a9cb5338491faf32b73dd17b714a31821c021bbf",
+    "context_length": 514
+  }
+}

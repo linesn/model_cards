@@ -1,0 +1,18 @@
+{
+  "nomic-ai/modernbert-embed-base": {
+    "releasedate": "2024-12-29",
+    "model": "nomic-ai/modernbert-embed-base",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 149014272}, total=149014272)",
+    "arxiv": [
+      "arxiv:2402.01613"
+    ],
+    "datasets": null,
+    "language": [
+      "en"
+    ],
+    "hash": "d556a88e332558790b210f7bdbe87da2fa94a8d8",
+    "context_length": 8192
+  }
+}

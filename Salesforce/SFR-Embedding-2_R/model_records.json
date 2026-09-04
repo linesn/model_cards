@@ -1,0 +1,16 @@
+{
+  "Salesforce/SFR-Embedding-2_R": {
+    "releasedate": "2024-06-14",
+    "model": "Salesforce/SFR-Embedding-2_R",
+    "license": "cc-by-nc-4.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 7110660096}, total=7110660096)",
+    "arxiv": [],
+    "datasets": null,
+    "language": [
+      "en"
+    ],
+    "hash": "f62d15f411ca97b66acc0f34da2a65f3420b55b0",
+    "context_length": 32768
+  }
+}

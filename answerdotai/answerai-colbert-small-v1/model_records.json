@@ -1,0 +1,18 @@
+{
+  "answerdotai/answerai-colbert-small-v1": {
+    "releasedate": "2024-08-12",
+    "model": "answerdotai/answerai-colbert-small-v1",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 33396864}, total=33396864)",
+    "arxiv": [
+      "arxiv:2407.20750"
+    ],
+    "datasets": null,
+    "language": [
+      "en"
+    ],
+    "hash": "934fa8bb4ce2284f4c2baa232d81aca4d076fa5e",
+    "context_length": 512
+  }
+}
