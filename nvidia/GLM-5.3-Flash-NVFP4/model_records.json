@@ -1,0 +1,14 @@
+{
+  "nvidia/GLM-5.3-Flash-NVFP4": {
+    "releasedate": "2026-09-02",
+    "model": "nvidia/GLM-5.3-Flash-NVFP4",
+    "license": "mit",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 16460604030, 'U8': 152429395968, 'F32': 3635424}, total=168893635422)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "09b04e5e74bca08ca8549fc736d4cdd8624bfde3",
+    "context_length": null
+  }
+}
