@@ -1,0 +1,14 @@
+{
+  "vllm-sr/d3-lite": {
+    "releasedate": "2026-10-10",
+    "model": "vllm-sr/d3-lite",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 852985920}, total=852985920)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "99e5b1ce5a718454cd112cfe00caa8d2ae8df2ff",
+    "context_length": 262144
+  }
+}

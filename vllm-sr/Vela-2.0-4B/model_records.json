@@ -1,0 +1,52 @@
+{
+  "vllm-sr/Vela-2.0-4B": {
+    "releasedate": "2026-10-02",
+    "model": "vllm-sr/Vela-2.0-4B",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 641305089, 'BF16': 3569876992}, total=4211182081)",
+    "arxiv": [],
+    "datasets": [
+      "nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
+      "ToxicityPrompts/PolyGuardMix",
+      "nvidia/Nemotron-Safety-Guard-Dataset-v3",
+      "microsoft/llmail-inject-challenge",
+      "OpenSafetyLab/Salad-Data",
+      "KRLabsOrg/lettucedetect-prose-hallucination",
+      "KRLabsOrg/lettucedetect-code-hallucination",
+      "numind/NuNER",
+      "urchade/pile-mistral-v0.1",
+      "knowledgator/GLINER-multi-task-synthetic-data",
+      "nlpaueb/finer-139",
+      "tonytan48/Re-DocRED",
+      "MultiCoNER/multiconer_v2",
+      "martinjosifoski/SynthIE",
+      "rajpurkar/squad_v2",
+      "hotpotqa/hotpot_qa",
+      "google-research-datasets/natural_questions",
+      "KRLabsOrg/verbatim-spans",
+      "KRLabsOrg/tool-output-extraction-swebench"
+    ],
+    "language": [
+      "ar",
+      "zh",
+      "cs",
+      "nl",
+      "en",
+      "fr",
+      "de",
+      "hi",
+      "it",
+      "ja",
+      "ko",
+      "pl",
+      "pt",
+      "ru",
+      "es",
+      "sv",
+      "th"
+    ],
+    "hash": "d692394127f6f87fc581d8634c9558fe4776efce",
+    "context_length": 16384
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dealignai/GLM-5.3-Flash-UNCENSORED-NVFP4": {
+    "releasedate": "2026-08-26",
+    "model": "dealignai/GLM-5.3-Flash-UNCENSORED-NVFP4",
+    "license": "mit",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 295518, 'BF16': 9669171456, 'U8': 155826782208}, total=165496249182)",
+    "arxiv": [],
+    "datasets": null,
+    "language": [
+      "en"
+    ],
+    "hash": "745aac2ff0f10acf961f396df3f9418598aa7327",
+    "context_length": 1048576
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "vllm-sr/Vela-2.0-0.3B": {
+    "releasedate": "2026-09-29",
+    "model": "vllm-sr/Vela-2.0-0.3B",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 309114369}, total=309114369)",
+    "arxiv": [],
+    "datasets": [
+      "nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
+      "ToxicityPrompts/PolyGuardMix",
+      "nvidia/Nemotron-Safety-Guard-Dataset-v3",
+      "microsoft/llmail-inject-challenge",
+      "OpenSafetyLab/Salad-Data",
+      "KRLabsOrg/lettucedetect-prose-hallucination",
+      "KRLabsOrg/lettucedetect-code-hallucination"
+    ],
+    "language": [
+      "ar",
+      "zh",
+      "cs",
+      "nl",
+      "en",
+      "fr",
+      "de",
+      "hi",
+      "it",
+      "ja",
+      "ko",
+      "pl",
+      "pt",
+      "ru",
+      "es",
+      "sv",
+      "th"
+    ],
+    "hash": "d6f03aa9baca4f9017fa8f8e9c2764d3bed3f409",
+    "context_length": 8192
+  }
+}

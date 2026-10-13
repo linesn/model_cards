@@ -1,0 +1,14 @@
+{
+  "vllm-sr/d3-flash": {
+    "releasedate": "2026-10-10",
+    "model": "vllm-sr/d3-flash",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 8392695024}, total=8392695024)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "b92769d85908bb3ee737ef9c765e1c08b887aca6",
+    "context_length": 262144
+  }
+}

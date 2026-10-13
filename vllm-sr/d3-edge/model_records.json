@@ -1,0 +1,14 @@
+{
+  "vllm-sr/d3-edge": {
+    "releasedate": "2026-10-10",
+    "model": "vllm-sr/d3-edge",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 594321600}, total=594321600)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "fe71f8e1dad1d0198386de78345b13f25c319b36",
+    "context_length": 262144
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "vllm-sr/d3-nano": {
+    "releasedate": "2026-10-10",
+    "model": "vllm-sr/d3-nano",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'BF16': 2213241664}, total=2213241664)",
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "80820624a8170104679aa99897a6e9026eae0790",
+    "context_length": 262144
+  }
+}
