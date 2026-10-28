@@ -1,0 +1,16 @@
+{
+  "vllm-sr/vela3-fast": {
+    "releasedate": "2026-10-17",
+    "model": "vllm-sr/vela3-fast",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": "SafeTensorsInfo(parameters={'F32': 380436225}, total=380436225)",
+    "arxiv": [],
+    "datasets": null,
+    "language": [
+      "en"
+    ],
+    "hash": "9e338f39babc622f42e9bd8556398fe2d80d9f13",
+    "context_length": null
+  }
+}

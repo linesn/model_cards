@@ -1,0 +1,14 @@
+{
+  "vllm-sr/vela3-mini": {
+    "releasedate": "2026-10-14",
+    "model": "vllm-sr/vela3-mini",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": null,
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "5227b8a0f2e86df53035b98dc45b21ecd8a8bc00",
+    "context_length": null
+  }
+}

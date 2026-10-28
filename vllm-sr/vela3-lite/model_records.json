@@ -1,0 +1,14 @@
+{
+  "vllm-sr/vela3-lite": {
+    "releasedate": "2026-10-17",
+    "model": "vllm-sr/vela3-lite",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": null,
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "2ac29e42ecec3d067c4cb991bb5e6a933ea21fb1",
+    "context_length": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "vllm-sr/vela3-turbo": {
+    "releasedate": "2026-10-21",
+    "model": "vllm-sr/vela3-turbo",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": null,
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "575ec6f89afc8b7b0f3f1f7b12bccfc8d292ddb6",
+    "context_length": null
+  }
+}

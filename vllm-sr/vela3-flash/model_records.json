@@ -1,0 +1,14 @@
+{
+  "vllm-sr/vela3-flash": {
+    "releasedate": "2026-10-18",
+    "model": "vllm-sr/vela3-flash",
+    "license": "apache-2.0",
+    "license_file": null,
+    "safetensors": null,
+    "arxiv": [],
+    "datasets": null,
+    "language": null,
+    "hash": "47c6eaaef64e87a06a95767920e8357e5f5036f9",
+    "context_length": null
+  }
+}
