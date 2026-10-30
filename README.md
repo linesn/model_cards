@@ -22,5 +22,5 @@ Manual/local use (same machinery in `scripts/gather_models.py`):
 
     pip install huggingface_hub scancode-toolkit playwright
     python -m playwright install chromium
-    python scripts/gather_models.py --models-file model_slugs.txt --output-dir .
+    python scripts/gather_models.py --model maker/name --output-dir .
     # set HF_TOKEN in the environment for gated repos

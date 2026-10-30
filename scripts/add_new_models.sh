@@ -11,6 +11,11 @@ BOT_NAME="${BOT_NAME:-Model Card Bot}"
 BOT_EMAIL="${BOT_EMAIL:-model-card-bot@users.noreply.gitlab.com}"
 DRY_RUN="${DRY_RUN:-0}"
 
+if [[ "$DRY_RUN" != "1" ]] && [[ -z "${CI_SERVER_HOST:-}" || -z "${CI_PROJECT_PATH:-}" ]]; then
+    echo "ERROR: not running inside GitLab CI (CI_SERVER_HOST/CI_PROJECT_PATH unset). Local runs must set DRY_RUN=1." >&2
+    exit 1
+fi
+
 SLUGS_FILE="model_slugs.txt"
 if [[ ! -f "$SLUGS_FILE" ]]; then
     echo "ERROR: $SLUGS_FILE not found in $REPO_ROOT" >&2
@@ -75,14 +80,21 @@ for slug in "${new_slugs[@]}"; do
     fi
 done
 
+# Remove the managed outputs of demoted slugs so the next run re-fetches them
+# (without this, the diff step above would see model_records.json and skip).
+for slug in "${new_slugs[@]}"; do
+    if [[ -n "${fail_reason[$slug]:-}" ]]; then
+        rm -f "${slug}/model_records.json" "${slug}/README.txt" "${slug}/model_card.pdf"
+        rmdir "${slug}" 2>/dev/null || true
+    fi
+done
+
 if [[ ${#verified[@]} -eq 0 ]]; then
     echo "No verified cards; not committing."
     exit 1
 fi
 
 # --- 5. Commit -------------------------------------------------------------------
-git config user.name "$BOT_NAME"
-git config user.email "$BOT_EMAIL"
 git add "${verified[@]}"
 
 names=""
@@ -93,16 +105,12 @@ for s in "${verified[@]}"; do
         names="$names, $s"
     fi
 done
-git commit -m "Add ${#verified[@]} model cards: $names"
+git -c user.name="$BOT_NAME" -c user.email="$BOT_EMAIL" commit -m "Add ${#verified[@]} model cards: $names"
 
 # --- 6. Push -------------------------------------------------------------------
 if [[ "$DRY_RUN" == "1" ]]; then
     echo "DRY_RUN=1: skipping push; commit is local only."
 else
-    if [[ -z "${CI_SERVER_HOST:-}" || -z "${CI_PROJECT_PATH:-}" ]]; then
-        echo "ERROR: cannot build the push URL outside GitLab CI (CI_SERVER_HOST/CI_PROJECT_PATH unset). Re-run locally with DRY_RUN=1." >&2
-        exit 1
-    fi
     if [[ -n "${GITLAB_PUSH_TOKEN:-}" ]]; then
         push_url="https://oauth2:${GITLAB_PUSH_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
     elif [[ -n "${CI_JOB_TOKEN:-}" ]]; then
