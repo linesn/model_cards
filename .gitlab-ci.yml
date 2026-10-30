@@ -1,0 +1,19 @@
+add-model-cards:
+  image: mcr.microsoft.com/playwright/python:v1.64.0
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+      changes:
+        - model_slugs.txt
+  variables:
+    PIP_CACHE_DIR: $CI_PROJECT_DIR/.pip_cache
+    PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+  cache:
+    key:
+      files:
+        - .gitlab-ci.yml
+    path:
+      - .pip_cache
+  before_script:
+    - pip install huggingface_hub scancode-toolkit
+  script:
+    - bash scripts/add_new_models.sh
