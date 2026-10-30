@@ -382,6 +382,12 @@ def process_models(models: list[str], base_dir: Path, overwrite: bool = False) -
             continue
         if not existed_before and out_dir.exists():
             shutil.rmtree(out_dir)
+            # Remove now-empty parent dirs this run created too (e.g. a maker
+            # dir that held only this failed slug), walking up to base_dir.
+            parent = out_dir.parent
+            while parent != base_dir and parent.is_dir() and not any(parent.iterdir()):
+                parent.rmdir()
+                parent = parent.parent
         failures.append((model, reason))
         print(f"ERROR: {model} -> {reason}")
     print(f"\nSummary: {len(successes)} succeeded, {len(failures)} failed")
